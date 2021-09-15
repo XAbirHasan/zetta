@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please write your Billing Address"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="25dp"
+        android:textColor="@color/colorPrimary"
+
+        android:textStyle="bold"
+        >
+    </TextView>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text"
+        android:background="@android:color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        ></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/text"
+        android:layout_above="@+id/remember_me_chkb"
+        >
+
+        <EditText
+            android:id="@+id/shipName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Full Name"
+            android:inputType="text"></EditText>
+
+        <EditText
+            android:id="@+id/shipCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="City"
+            android:inputType="text"></EditText>
+
+        <EditText
+            android:id="@+id/shipRoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="Road"
+            android:inputType="text"></EditText>
+
+        <EditText
+            android:id="@+id/shipNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="Phone Number"
+            android:inputType="number"></EditText>
+
+        <EditText
+            android:id="@+id/shipHomeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="Home Address"
+            android:inputType="text"></EditText>
+
+        <EditText
+            android:id="@+id/shipZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="Zip Code"
+            android:inputType="number"></EditText>
+
+        <EditText
+            android:id="@+id/shipRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:hint="Region"
+            android:inputType="text"></EditText>
+    </LinearLayout>
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/remember_me_chkb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        android:text="Confirm my Orders"
+        android:textColor="@color/colorPrimaryDark"
+        app:cbd_strokeColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_above="@+id/save_address_btn"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/save_address_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Place Order"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        >
+    </Button>
+
+</RelativeLayout>

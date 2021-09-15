@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:id="@+id/wholeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linear_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/product_image_order"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:layout_width="0dp"
+                android:layout_margin="5dp">
+            </ImageView>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/product_name_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Name"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:layout_margin="5dp"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/product_quantity_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity = #"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    >
+                </TextView>
+                <TextView
+                    android:id="@+id/product_price_per_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Per price = #"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/product_price_total_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total price = #"
+                    android:textSize="18sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/linear_layout_1"
+            >
+            <TextView
+                android:id="@+id/status_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Status : not Shipped"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="5dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

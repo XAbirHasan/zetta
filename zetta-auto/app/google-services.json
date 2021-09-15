@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "728929390909",
+    "project_id": "e-commerce-10e5b",
+    "storage_bucket": "e-commerce-10e5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728929390909:android:f15f6b03f40de526253554",
+        "android_client_info": {
+          "package_name": "com.abir.e_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728929390909-dcprkikmp60geafhkkjr2md776i24e0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abir.e_commerce",
+            "certificate_hash": "d082151c2222a325dfc17a60394a320d9e710b06"
+          }
+        },
+        {
+          "client_id": "728929390909-7lv30l2tgenugngc80f66vlu88hm0qsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzfs47Xr1TzBZUeCmx_8oVLqDoTBt8J6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728929390909-7lv30l2tgenugngc80f66vlu88hm0qsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

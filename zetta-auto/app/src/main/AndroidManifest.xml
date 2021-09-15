@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.zetta">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_luncher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.project.zetta.BoyManageOrder"></activity>
+        <activity android:name="com.project.zetta.EditiProductActivity" />
+        <activity android:name="com.project.zetta.BoyDetailsAcivity" />
+        <activity android:name="com.project.zetta.BoyProfileActivity" />
+        <activity android:name="com.project.zetta.BoyHomeActivity" />
+        <activity android:name="com.project.zetta.BoySignupActivity" />
+        <activity android:name="com.project.zetta.BoyLoginActivity" />
+        <activity android:name="com.project.zetta.SplashDeliveryBoy" />
+        <activity android:name="com.project.zetta.SplashVendor" />
+        <activity android:name="com.project.zetta.SplashCustomer" />
+        <activity android:name="com.project.zetta.DeliveryBoyActivity" />
+        <activity android:name="com.project.zetta.VendorReport" />
+        <activity android:name="com.project.zetta.GiveRatingActivity" />
+        <activity android:name="com.project.zetta.VendroAddProductActivity" />
+        <activity android:name="com.project.zetta.OrderlistActivity" />
+        <activity android:name="com.project.zetta.VendorSalesReportActivity" />
+        <activity android:name="com.project.zetta.VendorManagePaymentActivity" />
+        <activity android:name="com.project.zetta.VendorManageDeliveryActivity" />
+        <activity android:name="com.project.zetta.VendorManageOrderActivity" />
+        <activity android:name="com.project.zetta.VendorManageItemActivity" />
+        <activity android:name="com.project.zetta.VendorProfileActivity" />
+        <activity android:name="com.project.zetta.VendorHomeActivity" />
+        <activity android:name="com.project.zetta.ChangePasswordActivity" />
+        <activity android:name="com.project.zetta.GetOTPActivity" />
+        <activity android:name="com.project.zetta.ForgetPasswordActivity" />
+        <activity android:name="com.project.zetta.SearchActivity" />
+        <activity android:name="com.project.zetta.PaymentActivity" />
+        <activity android:name="com.project.zetta.ConfirmActivity" />
+        <activity android:name="com.project.zetta.WishlistActivity" />
+        <activity android:name="com.project.zetta.CartActivity" />
+        <activity android:name="com.project.zetta.ProductDetails" />
+        <activity android:name="com.project.zetta.Settings" />
+        <activity android:name="com.project.zetta.logout" />
+        <activity
+            android:name="com.project.zetta.CustomerHomeActivity"
+            android:label="@string/title_activity_customer_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.project.zetta.VendorSignup" />
+        <activity android:name="com.project.zetta.VendorLogin_page" />
+        <activity android:name="com.project.zetta.CustomerSignup" />
+        <activity android:name="com.project.zetta.CustomerLogin_page" />
+        <activity android:name="com.project.zetta.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

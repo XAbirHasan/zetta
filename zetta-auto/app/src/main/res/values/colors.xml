@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BF007A</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorYellow">#FF8400</color>
+    <color name="colorLogo">#0CA5F8</color>
+    <color name="noColor">#00000000</color>
+    <color name="yesColor">#4CAF50</color>
+    <color name="notYet">#FFC107</color>
+    <color name="vendorPrimary">#4394F6</color>
+
+    <color name="stockColor">#ff9966</color>
+    <color name="soldColor">#66ccff</color>
+    <color name="totalSalesColor">#ff3366</color>
+    <color name="avgColor">#993399</color>
+
+    <color name="boyPrimary">#a587e4</color>
+</resources>
