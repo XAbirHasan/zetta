@@ -14,7 +14,7 @@ Project No: 14 <br>
 Year: 2019
 
 ## Demo Video
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/1bBcfG0_Xd4/0.jpg)](http://www.youtube.com/watch?v=1bBcfG0_Xd4 "Zetta || android dev")
+<!-- [![IMAGE ALT TEXT](http://img.youtube.com/vi/1bBcfG0_Xd4/0.jpg)](http://www.youtube.com/watch?v=1bBcfG0_Xd4 "Zetta || android dev") -->
 
 ## Screen shot
 
