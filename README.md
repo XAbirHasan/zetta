@@ -19,55 +19,43 @@ Year: 2019
 ## Screen shot
 
 ### Home
-<br>
 <img src="demo/1.png" alt="home" width="300"/>
-
+<br>
 ### Customer
 
 #### login
-<br>
 <img src="demo/2.0.png" alt="login" width="300"/>
-
+<br>
 #### Singup
-<br>
 <img src="demo/2.1.png" alt="Signup" width="300"/>
-
+<br>
 #### Home(after login)
-<br>
 <img src="demo/2.2.png" alt="home" width="300"/>
-
+<br>
 #### Sidebar
-<br>
 <img src="demo/2.3.png" alt="sidebar" width="300"/>
-
+<br>
 #### Profile
-<br>
 <img src="demo/2.4.png" alt="profile" width="300"/>
-
+<br>
 #### Cart
-<br>
 <img src="demo/2.5.png" alt="cart" width="300"/>
-
+<br>
 #### Billing info
-<br>
 <img src="demo/2.6.png" alt="bill" width="300"/>
-
-#### Online payment
 <br>
+#### Online payment
 <img src="demo/2.7.png" alt="payment" width="300"/>
-
+<br>
 ### OTP
 
 #### Sending window
-<br>
 <img src="demo/3.png" alt="otp1" width="300"/>
-
+<br>
 #### Get push notification
-<br>
 <img src="demo/4.png" alt="otp2" width="300"/>
-
-#### Resend
 <br>
+#### Resend
 <img src="demo/5.png" alt="otp3" width="300"/>
 
 <br>
@@ -75,26 +63,20 @@ Year: 2019
 
 ### Vendors
 #### Singup
-<br>
 <img src="demo/7.0.png" alt="Singup" width="300"/>
-
+<br>
 #### homepage
-<br>
 <img src="demo/7.1.png" alt="homepage" width="300"/>
-
+<br>
 #### order details
-<br>
 <img src="demo/7.2.png" alt="order" width="300"/>
-
-#### payment details
 <br>
+#### payment details
 <img src="demo/7.3.png" alt="payment" width="300"/>
-
 <br>
 <img src="demo/7.4.png" alt="payment" width="300"/>
 
 #### Sales report 
-<br>
 <img src="demo/7.5.png" alt="Singup" width="300"/>
 
 <br>
@@ -102,17 +84,14 @@ Year: 2019
 
 ### delivery boy
 #### Singup
-<br>
 <img src="demo/8.0.png" alt="Singup" width="300"/>
-
+<br>
 #### homepage
-<br>
 <img src="demo/8.1.png" alt="homepage" width="300"/>
-
-#### Profile
 <br>
+#### Profile
 <img src="demo/8.2.png" alt="profile" width="300"/>
-
+<br>
 
 ## Authors
 
