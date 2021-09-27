@@ -1,11 +1,11 @@
 # zetta
- An e-commerce platform to buy automobile parts. (2019)
+An e-commerce platform to buy automobile parts. (2019)
 
 This project was developed in 2019. This file contains a commercial project demo for the android platform. Feel free to use or edit it.
-This project also has push notification, otp and online payment gateway.
+It also has push notification, otp and online payment gateway.
 
 
- ## Project description
+## Project description
 Name: zetta <br>
 Programming Language: Java <br>
 Platfrom: Android application <br>
@@ -14,7 +14,7 @@ Project No: 14 <br>
 Year: 2019
 
 ## Demo Video
-<!-- [![IMAGE ALT TEXT](http://img.youtube.com/vi/1bBcfG0_Xd4/0.jpg)](http://www.youtube.com/watch?v=1bBcfG0_Xd4 "Zetta || android dev") -->
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/WeKBVcPuarE/0.jpg)](http://www.youtube.com/watch?v=WeKBVcPuarE "Zetta || android dev")
 
 ## Screen shot
 
