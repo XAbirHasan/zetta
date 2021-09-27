@@ -1,7 +1,7 @@
 # zetta
 An e-commerce platform to buy automobile parts. (2019)
 
-This project was developed in 2019. This file contains a commercial project demo for the android platform. Feel free to use or edit it.
+This project was developed in 2019. This file contains a commercial project demo for the android platform. Feel free to use or edit it.<br>
 It also has push notification, otp and online payment gateway.
 
 
